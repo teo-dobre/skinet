@@ -1,7 +1,6 @@
 import { inject } from '@angular/core';
 import { CanActivateFn, Router } from '@angular/router';
 import { CartService } from '../services/cart.service';
-import { of } from 'rxjs';
 import { SnackbarService } from '../services/snackbar.service';
 
 export const emptyCartGuard: CanActivateFn = (route, state) => {
